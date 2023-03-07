@@ -1,3 +1,8 @@
+// Jungjae Lee
+// Boston University College of Engineering
+// EC 330 Programming Assignment 1 Question 2b
+// February 8, 2023
+
 #ifndef __BALANCED_H__
 #define __BALANCED_H__
 
