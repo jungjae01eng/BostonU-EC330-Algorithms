@@ -1,6 +1,6 @@
 // Jungjae Lee
 // Boston University College of Engineering
-// EC 330 Programming Assignment 1 Question 2b
+// EC 330 Programming Assignment 1 Question 6b
 // February 8, 2023
 
 #include "PA_1_2_balancedGroups.h"
