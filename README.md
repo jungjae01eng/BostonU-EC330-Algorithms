@@ -3,10 +3,7 @@
 ## PA_1
 1) Write a program to generate the result of fun(x, y) for non-negative integer inputs x and y. The function fun(x, y) is defined as follows.
 𝑓𝑢𝑛(𝑥, 𝑦) =
-      1                               IF 𝑥 = 0 𝑎𝑛𝑑 𝑦 = 0
-      𝑓𝑢𝑛(1, 𝑦 − 1)                   IF 𝑥 = 0 𝑎𝑛𝑑 𝑦 ≠ 0
-        𝑥 + 1                         IF 𝑥 ≠ 0 𝑎𝑛𝑑 𝑦 = 0
-      𝑓𝑢𝑛(𝑥 − 1, 𝑓𝑢𝑛(𝑥 − 1, 𝑦 − 1))   IF 𝑜𝑡ℎ𝑒𝑟𝑤𝑖𝑠𝑒
+      1 IF 𝑥 = 0 𝑎𝑛𝑑 𝑦 = 0 | 𝑓𝑢𝑛(1, 𝑦 − 1) IF 𝑥 = 0 𝑎𝑛𝑑 𝑦 ≠ 0 | 𝑥 + 1 IF 𝑥 ≠ 0 𝑎𝑛𝑑 𝑦 = 0 | 𝑓𝑢𝑛(𝑥 − 1, 𝑓𝑢𝑛(𝑥 − 1, 𝑦 − 1)) IF 𝑜𝑡ℎ𝑒𝑟𝑤𝑖𝑠𝑒
 
 2) Wenchao wants to divide the class into two (non-empty) project groups based on the students' birthdays. In particular, we are going to consider only the day of birth (i.e. an integer between 1 and 31) and not the month or the year. We want the two
 groups to be "balanced" in such a way that the difference between the sum of birthdays of one group and the sum of birthdays of the other group is minimized.
