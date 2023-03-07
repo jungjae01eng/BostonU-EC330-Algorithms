@@ -1,6 +1,6 @@
 // Jungjae Lee
 // Boston University College of Engineering
-// EC 330 Programming Assignment 1 Question 1a
+// EC 330 Programming Assignment 1 Question 6a
 // February 8, 2023
 
 #ifndef __FUN_H__
